@@ -1,14 +1,31 @@
-# ananke
+# `ananke`
 
-A Clojure library designed to ... well, that part is up to you.
+```
+The personification of inevitability, compulsion and necessity.
+```
 
-## Usage
+A Clojure/Script library designed to tame applications so you don't have to scream at night anymore.
 
-FIXME
+# Rationale
+As you start creating a new application, you feel joy and happiness. But as time goes by and the application grows more complex, your hair starts falling and you feel less joy and happiness. Eventually, you're bald and your application is a complete mess. And I'm sure the latter is much worse.
 
-## License
+One of the most headache-inducing complexity in an application is application state. Specifically, things that you want to do at a certain state. Take a login form for example, you want to validate when the user stops typing, to validate on submitting requests, to error out on failed request, to clear the form when the user hits "Clear", etc. etc. That's a lot of "wants"
 
-Copyright © 2021 FIXME
+And then you realise that this is _only_ just the state. You completely forgot about the transitions between them... It's OK to cry now.
+
+Most of the time, it all boils down to you having different states, and you want to be able to do things when a certain state is reached, and to move to different states depending on different factors. Simply put, you want a `UI State Machine` (USM).
+
+The reason above is why `Ananke` was born. It was born out of `inevitability, compulsion and necessity` of taming your app state in a reliable and predictable way with USMs.
+
+# Installation
+TBC
+
+# Documentation
+TBC
+
+# License
+
+Copyright © 2021 Rex Truong
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
