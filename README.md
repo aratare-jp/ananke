@@ -6,10 +6,13 @@ The personification of inevitability, compulsion and necessity.
 
 A Clojure/Script library designed to tame applications so you don't have to scream at night anymore.
 
+# Status
+Ultra alpha, so it's for those who want to live beyond the edge.
+
 # Rationale
 As you start creating a new application, you feel joy and happiness. But as time goes by and the application grows more complex, your hair starts falling and you feel less joy and happiness. Eventually, you're bald and your application is a complete mess. And I'm sure the latter is much worse.
 
-One of the most headache-inducing complexities in an application is application state. Specifically, things that you want to do at a certain state. Take a login form for example, you want to validate when the user stops typing, to validate on submitting requests, to error out on failed request, to clear the form when the user hits "Clear", etc. etc. That's a lot of "wants"
+One of the most headache-inducing complexities in an application is application state. Specifically, things that you want to do at a certain state. Take a login form for example, you want to validate when the user stops typing, to validate on submitting requests, to error out on failed request, to clear the form when the user hits "Clear", etc. etc. That's a lot of "wants".
 
 And then you realise that this is _only_ just the state. You completely forgot about the transitions between them... It's OK to cry now.
 
