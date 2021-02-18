@@ -7,7 +7,7 @@ The personification of inevitability, compulsion and necessity.
 A Clojure/Script library designed to tame applications so you don't have to scream at night anymore.
 
 # Status
-Ultra alpha, so it's for those who want to live beyond the edge.
+Idealisation
 
 # Rationale
 As you start creating a new application, you feel joy and happiness. But as time goes by and the application grows more complex, your hair starts falling and you feel less joy and happiness. Eventually, you're bald and your application is a complete mess. And I'm sure the latter is much worse.
